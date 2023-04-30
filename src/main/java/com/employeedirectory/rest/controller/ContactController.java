@@ -52,7 +52,7 @@ public class ContactController {
 	    mailContent += "<hr><img style='margin-bottom: 20px; width: 20%; height: 20%;'src='cid:logo-generic' />";
 	    
 	    // Enter same e-mail as application.properties
-	    helper.setFrom("your-outlook-email@hotmail.com", "Big Business");
+	    helper.setFrom("outlook-email@hotmail.com", "Big Business");
 	    helper.setTo(employee.getEmail());
 	    helper.setSubject(mailSubject);
 	    helper.setText(mailContent, true);
@@ -81,7 +81,7 @@ public class ContactController {
 	    mailContent += "<hr><img style='margin-bottom: 20px; width: 20%; height: 20%;'src='cid:logo-generic' />";
 	    
 	    // Enter same e-mail as application.properties
-	    helper.setFrom("your-outlook-email@hotmail.com", "Big Business");
+	    helper.setFrom("outlook-email@hotmail.com", "Big Business");
 	    helper.setTo(prospect.getEmail());
 	    helper.setSubject(mailSubject);
 	    helper.setText(mailContent, true);

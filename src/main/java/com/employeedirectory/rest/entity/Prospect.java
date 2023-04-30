@@ -42,6 +42,11 @@ public class Prospect {
 	public Prospect() {
 	}
 
+	public Prospect(String fullName, String email) {
+		this.fullName = fullName;
+		this.email = email;
+	}
+
 	public Long getId() {
 		return id;
 	}

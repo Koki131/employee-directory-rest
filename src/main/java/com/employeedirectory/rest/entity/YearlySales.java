@@ -46,6 +46,12 @@ public class YearlySales implements Comparable<YearlySales>{
 		
 	}
 
+	public YearlySales(String fullName, int month, int year, BigDecimal totalSales) {
+		this.fullName = fullName;
+		this.month = month;
+		this.year = year;
+		this.totalSales = totalSales;
+	}
 
 	public int getEmployeeId() {
 		return employeeId;

@@ -46,6 +46,12 @@ public class Sales {
 		
 	}
 
+	public Sales(LocalDate date, String fullName, BigDecimal amount) {
+		this.date = date;
+		this.fullName = fullName;
+		this.amount = amount;
+	}
+
 	public Long getId() {
 		return id;
 	}

@@ -8,6 +8,14 @@ public class EmailRequest {
     private String email;
     private String content;
 
+
+    public EmailRequest(String fullName, String subject, String email, String content) {
+        this.fullName = fullName;
+        this.subject = subject;
+        this.email = email;
+        this.content = content;
+    }
+
     public String getFullName() {
         return fullName;
     }

@@ -37,6 +37,12 @@ public class ProspectLinks {
 	public ProspectLinks() {
 	}
 
+	public ProspectLinks(String instagram, String linkedIn, String facebook) {
+		this.instagram = instagram;
+		this.linkedIn = linkedIn;
+		this.facebook = facebook;
+	}
+
 	public Long getId() {
 		return id;
 	}
